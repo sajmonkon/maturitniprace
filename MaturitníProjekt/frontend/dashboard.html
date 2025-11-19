@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="css/style.css">
+
+<h1>Vítej, <span id="username"></span></h1>
+<ul id="quizList"></ul>
+<script src="js/quiz.js"></script>
+<script>
+document.getElementById("username").innerText = localStorage.getItem("username") || "Host";
+</script>
